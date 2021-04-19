@@ -1,0 +1,79 @@
+/* Orawan Srisukprom 6009610905 */
+body{
+    background-image: url('images/background.png'); 
+    font-size: 8pt; 
+    font-family: tahoma; 
+    width: 100%; 
+    margin: 0%;
+}
+#banner{
+    width: 100%;
+    }
+h1{
+    text-align: center; 
+    font-size: 24pt;
+    }
+.overview{
+    width: 800px; 
+    border: 4px solid gray; 
+    margin: auto; 
+    overflow: hidden;} 
+.right{ 
+    float: right; 
+    width: 250px; 
+    background-color: #a2b964; 
+    font-size: 8pt; 
+    font-family: Arial;
+    }
+dl{margin: 10px;}
+dt{font-weight: bold;}
+dd{margin-bottom: 1em;}
+.rotten span {
+    font-size: 48pt; 
+    color: red; 
+    font-weight: bold; 
+    padding-left: 10px; 
+    }
+.rotten{
+    background-image: url('images/rottenbackground.png'); 
+    overflow: hidden; 
+    background-repeat:repeat-x; 
+    color: white; 
+    font-size: 8pt;
+    }
+.rotten img{ float: left;}
+.quote{
+    border: 2px gray solid; 
+    font-size: 8pt; 
+    font-weight: bold; 
+    background-color: #e1d697; 
+    padding: 8px; 
+    margin: 10px; 
+    width: 240px; 
+    margin-right: 0;
+    }
+p img{
+    float: left; 
+    margin-right: 5px;
+    }
+#footer{
+    background-color:#a2b964 ; 
+    text-align: center; 
+    position: relative; 
+    top: 81px; 
+    padding: 5px;
+    }
+p{
+    overflow: hidden; 
+    margin-bottom: 3em;
+    }
+.viewer{ 
+    font-style: italic; 
+    margin-bottom: 3em; 
+    margin-left: 10px;
+    }
+.row {display: flex; }
+.column {flex: 50%;}
+#wc{position: fixed;
+    bottom: 10px;
+    right: 5px;} 
